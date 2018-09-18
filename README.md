@@ -1,12 +1,17 @@
-# Welcome to ngx_mruby Pages
+<p align="center">
+  <img alt="ngx_mruby" src="https://github.com/matsumotory/ngx_mruby/blob/master/misc/logo.png?raw=true" width="300">
+</p>
 
-[![Backers on Open Collective](https://opencollective.com/ngx_mruby/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/ngx_mruby/sponsors/badge.svg)](#sponsors)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/matsumoto-r/ngx_mruby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://travis-ci.org/matsumotory/ngx_mruby.svg?branch=master)](https://travis-ci.org/matsumotory/ngx_mruby) [![wercker status](https://app.wercker.com/status/55f7f7af32d94b01a42f863f3635940c/s "wercker status")](https://app.wercker.com/project/bykey/55f7f7af32d94b01a42f863f3635940c)
+<p align="center">
+  <strong>ngx_mruby</strong>: A Fast and Memory-Efficient Nginx Extension Mechanism Scripting with mruby.
+</p>
 
-[![ngx_mruby mod_mruby performance](https://github.com/matsumotory/mod_mruby/raw/master/images/performance_20140301.png)](http://blog.matsumoto-r.jp/?p=3974)
-
-※ [hello world simple benchmark, see details of blog entry.](http://blog.matsumoto-r.jp/?p=3974)
+<p align="center">
+  <a href="#backers" title="Backers on Open Collective"><img src="https://opencollective.com/ngx_mruby/backers/badge.svg"></a>
+  <a href="#sponsors" title="Sponsors on Open Collective"><img src="https://opencollective.com/ngx_mruby/sponsors/badge.svg"></a>
+  <a href="https://travis-ci.org/matsumotory/ngx_mruby" title="Build Status"><img src="https://travis-ci.org/matsumotory/ngx_mruby.svg?branch=master"></a>
+  <a href="https://gitter.im/matsumoto-r/ngx_mruby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge" title="Gitter"><img src="https://badges.gitter.im/Join%20Chat.svg"></a>
+</p>
 
 ## Documents
 - [Install](https://github.com/matsumotory/ngx_mruby/tree/master/docs/install)
@@ -69,6 +74,12 @@ Server::rputs "Hello #{Server::module_name}/#{Server::module_version} world!"
 # mod_mruby => "Hello mod_mruby/0.9.3 world!"
 # ngx_mruby => "Hello ngx_mruby/0.0.1 world!"
 ```
+
+
+[![ngx_mruby mod_mruby performance](https://github.com/matsumotory/mod_mruby/raw/master/images/performance_20140301.png)](http://blog.matsumoto-r.jp/?p=3974)
+
+※ [hello world simple benchmark, see details of blog entry.](http://blog.matsumoto-r.jp/?p=3974)
+
 
 ## Abstract
 
